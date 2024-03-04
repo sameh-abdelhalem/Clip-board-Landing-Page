@@ -1,4 +1,5 @@
 import AccessAnywhere from "../Components/AccessAnywhere/AccessAnywhere";
+import CallToAction from "../Components/CallToAction/CallToAction";
 import Features from "../Components/Features/Features";
 import Hero from "../Components/Hero/Hero";
 import Refrences from "../Components/References/References";
@@ -14,6 +15,7 @@ const ClipBoardPage = () => {
       <AccessAnywhere />
       <Supercharge />
       <Refrences />
+      <CallToAction />
     </div>
   );
 };

@@ -1,5 +1,11 @@
+import Hero from "../Components/Hero/Hero";
+
 const ClipBoardPage = () => {
-  return <p>Hello World</p>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 };
 
 export default ClipBoardPage;

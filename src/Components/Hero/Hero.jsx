@@ -2,7 +2,7 @@ import logoImage from "../../assets/images/logo.svg";
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="section-container mb-40 px-10 pt-16">
+      <div className="section-container mb-40 pt-16">
         <img src={logoImage} alt="" className="mx-auto my-16" />
         <h3 className="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
           A history of everything you copy
@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
 
         {/* Button Container */}
-        <div className="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4">
+        <div className="button-container">
           <a
             href="#"
             className="p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80"
